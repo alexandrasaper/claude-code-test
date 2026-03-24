@@ -15,11 +15,16 @@ open tictactoe.html
 
 ## Git & GitHub
 
-All changes must be committed with clean, descriptive messages and pushed to `origin/main`:
+**Commit and push after every meaningful change.** Never leave work uncommitted — each logical unit of work (new feature, bug fix, config change) should be its own commit so progress is never lost and can always be reverted.
+
 ```bash
 git add <files>
-git commit -m "descriptive message"
+git commit -m "short imperative summary
+
+Optional body explaining why, not what."
 git push
 ```
 
-Remote: `https://github.com/alexandrasaper/claude-code-test`
+- Commit messages should be clear and specific (e.g. `"Add win animation to Tic Tac Toe"`, not `"update"`)
+- Push to `origin/main` after every commit
+- Remote: `https://github.com/alexandrasaper/claude-code-test`
